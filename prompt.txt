@@ -1,0 +1,23 @@
+Write a program (main.ts, Node 22, erasable-only TypeScript) for the make.fun
+bounty "Monday Morning Punchlines" (program/v1, free entry, $5 prize).
+
+The program must write ONE original joke about Monday mornings to
+/output/entry.txt: UTF-8 text, 1 to 200 characters, not only whitespace.
+The judge picks the funnier joke head-to-head, weighing in order:
+1. really about Monday mornings, 2. a real laugh with a turn/punchline that
+lands (not just a complaint about Mondays), 3. surprise, 4. economy of words,
+5. freshness (no tired Monday cliches).
+
+The joke: "Monday morning held a vote: my bed, my alarm, and my ambition.
+I lost 3-0 before I even opened my eyes."
+
+Requirements:
+- Create /output defensively before writing.
+- Leave /output/entry.txt world-readable (mode 0644).
+- Catch errors, write what you can, and exit 0.
+- No network, no dependencies, no fees.
+
+Also write README.md (with the three live make.fun badges for this
+competition), owner.json, and this prompt.txt. Then run the entry locally,
+verify exit 0 and the output content/length, and commit + push to the
+existing GitHub repo wenwijaya/monday-morning-punchlines.
